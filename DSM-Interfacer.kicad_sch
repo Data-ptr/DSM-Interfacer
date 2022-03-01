@@ -1846,7 +1846,7 @@
     (property "Value" "MAX232" (id 1) (at 178.5494 53.4186 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (id 2) (at 177.8 106.68 0)
+    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (id 2) (at 177.8 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/max232.pdf" (id 3) (at 176.53 77.47 0)
@@ -2042,7 +2042,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPST") (at 90.805 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 444b95f8-8c63-4ce6-8df1-23a4982ccc40)
     (property "Reference" "SW2" (id 0) (at 90.805 96.6175 0))
     (property "Value" "BOOT/FLASH" (id 1) (at 90.805 99.3926 0))
@@ -2835,7 +2835,7 @@
       (reference "U1") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
     )
     (path "/08aef537-b15e-4cd7-9de8-48074389e69b"
-      (reference "U2") (unit 1) (value "MAX232") (footprint "Package_DIP:DIP-16_W7.62mm")
+      (reference "U2") (unit 1) (value "MAX232") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/76a62690-f180-44fa-9ec9-7d6e6a9afe1f"
       (reference "U3") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
